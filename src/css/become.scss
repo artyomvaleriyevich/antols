@@ -1,0 +1,37 @@
+.become{
+  padding: 240px 0;
+  &__title{
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 130%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+  }
+  &__subtitle{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.55);
+    margin: 25px 0 100px;
+  }
+  &__label{
+    margin: 0 auto;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background: #283036;
+    border-radius: 15px;
+    justify-content: space-between;
+  }
+  &__input{
+    width: 80%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    padding-left: 20px;
+  }
+
+}

@@ -1,0 +1,41 @@
+.tools{
+  position: relative;
+  &:before{
+    content:'';
+    position: absolute;
+    background: url();
+    width: 589px;
+    height: 568px;
+    right: 0;
+    bottom: 0;
+  }
+  &__title{
+    margin-top: 100px;
+    font-weight: 500;
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.9);
+  }
+  &__subtitle{
+
+  }
+  &__label{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    padding: 8px;
+  }
+  &__input{
+    width: 80%;
+    height: 100%;
+    background: transparent;
+    border-radius:15px;
+    outline: none;
+  }
+  &__social{
+    display: flex;
+    align-items: center;
+    column-gap: 19px;
+  }
+}

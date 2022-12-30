@@ -1,0 +1,49 @@
+.tools{
+  position: relative;
+  &::before{
+    content: '';
+    position: absolute;
+    background: url("../images/tools/bg.png") center/cover no-repeat;
+    width: 589px;
+    height: 568px;
+    right: 0;
+    bottom: 0;
+  }
+  &__title{
+    margin-top: 100px;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 140%;
+    color: rgba(255, 255, 255, 0.9);
+  }
+  &__subtitle{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.55);
+    margin: 30px 0 60px;
+  }
+  &__label{
+    padding: 8px;
+    background: #283036;
+    border-radius: 15px;
+    width: 500px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    &-input{
+      width: 80%;
+      border: none;
+      outline: none;
+      background: transparent;
+      padding-left: 15px;
+      color: white;
+    }
+  }
+  &__social{
+    display: flex;
+    align-items: center;
+    column-gap: 19px;
+    margin-top: 110px;
+  }
+}
